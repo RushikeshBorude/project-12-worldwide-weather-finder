@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #d8e6e9; */
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.heading{
+
+  text-align: center;
+
+}
+
+input {
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  width: 350px;
+  color: green;
+  border: 1.2px solid green;
+  text-align: center;
+  background-color: #bccbd7;
+  font-family: inherit;
+  box-shadow: 10px 10px 10px rgba(7, 6, 6, 0.2);
+  min-width: 300px;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+
+.weather {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.weather h2 {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* .weather img{
+    transform: scale(2);
+} */
+::placeholder{
+align-items: center;
+text-align: center;
+color: green;
+}
